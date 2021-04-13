@@ -1,0 +1,38 @@
+.skills{
+    margin-top: 50px;
+}
+
+.techIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mern{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.stacks {
+    border: 2px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icon{
+    border: 2px solid red;
+    /* width: 100px; */
+    
+}
+.lan-stack{
+    margin: 10px 10px 0 0
+}
