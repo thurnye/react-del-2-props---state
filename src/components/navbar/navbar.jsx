@@ -1,9 +1,14 @@
 import React from 'react';
-import './nav.css'
+import './nav.css';
+import Logout from '../LogOut/logOut'
+
+
+
+
 const navbar = (props) => {
 
     const navItems = props.navitems
-    console.log(navItems)
+    // console.log(navItems)
 
 
     return (
@@ -17,10 +22,15 @@ const navbar = (props) => {
                         {navItems.map((el) => {
                             return <li key= {el}><a href={`#${el}`} >{el}</a></li>
                         })}
-                        
-                        
                     </ul>
+                    
                 </div>
+                < Logout 
+                logOut={props.logOut} 
+                logIn={props.logIn} 
+                name ={props.name}
+                IsLogged={props.IsLogged}
+                />
             </nav>
             {/* {props.navItems} */}
         </header>
